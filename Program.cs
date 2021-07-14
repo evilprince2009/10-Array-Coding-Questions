@@ -6,9 +6,10 @@ namespace _10_Array_Coding_Questions
     {
         static void Main()
         {
-            int[] a = { 1, 2, 4, 5, 6 };
-            int miss = ArrayProblemSolutions.GetMissingNumber(a, 5);
-            Console.WriteLine(miss);
+            int[] given_array = { 1, 2, 3, 4, 5, 6, 7, 8, 10 };
+
+            int missing_num = ArrayProblemSolutions.GetMissingNumber(given_array);
+            Console.WriteLine("Missing number is {0}", missing_num);
         }
     }
 }
