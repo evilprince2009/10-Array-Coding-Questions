@@ -6,10 +6,13 @@ namespace _10_Array_Coding_Questions
     {
         static void Main()
         {
-            int[] given_array = { 1, 2, 3, 4, 5, 6, 7, 8, 10 };
+            int[] given_array = { 1, 2, 3, 4, 5, 6, 7, 3, 7, 4, 1 };
 
-            int missing_num = ArrayProblemSolutions.GetMissingNumber(given_array);
-            Console.WriteLine("Missing number is {0}", missing_num);
+            //int missing_num = ArrayProblemSolutions.GetMissingNumber(given_array);
+            //Console.WriteLine("Missing number is {0}", missing_num);
+
+            int[] duplicates = ArrayProblemSolutions.GetDuplicateNumbers(given_array);
+            Console.WriteLine("Duplicate numbers are" + Environment.NewLine + "{0}", string.Join(" ", duplicates));
         }
     }
 }

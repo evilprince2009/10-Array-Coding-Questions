@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace _10_Array_Coding_Questions
 {
     public class ArrayProblemSolutions
@@ -12,6 +15,25 @@ namespace _10_Array_Coding_Questions
                 total -= input_array[i];
             }
             return total;
+        }
+        public static int[] GetDuplicateNumbers(int[] array)
+        {
+            List<int> numbers = new();
+            int size = array.Length;
+
+            for (int i = 0; i < size; i++)
+            {
+                int element = Math.Abs(array[i]);
+                if (array[element] >= 0)
+                {
+                    array[element] = -array[element];
+                }
+                else
+                {
+                    numbers.Add(element);
+                }
+            }
+            return numbers.ToArray();
         }
     }
 }
