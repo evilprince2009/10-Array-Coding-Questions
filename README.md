@@ -10,8 +10,8 @@ The key to solving array-based questions is having a good knowledge of array dat
 
 ### Here are some of the popular array-based coding interview questions for your practice:
 
-- How do you find the missing number in a given integer array of 1 to 100 ? (solution -> `GetMissingNumber(int given_array): int`)
-- How do you find the duplicate numbers on a given integer array ? (solution -> `GetDuplicateNumbers(int given_array): int`)
+- How do you find the missing number in a given integer array of 1 to 100 ? (solution -> `GetMissingNumber(int[] given_array): int`)
+- How do you find the duplicate numbers on a given integer array ? (solution -> `GetDuplicateNumbers(int[] given_array): int[]`)
 - How do you find the largest and smallest number in an unsorted integer array ? (solution)
 - How do you find all pairs of an integer array whose sum is equal to a given number? (solution)
 - How do you find duplicate numbers in an array if it contains multiple duplicates?(solution)
