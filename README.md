@@ -23,4 +23,4 @@ The key to solving array-based questions is having a good knowledge of array dat
 
 These questions will not only help you to develop your problem-solving skills but also improve your knowledge of the array data structure.
 
-### For solutions check out the Code file with the same name as the question. (coming soon)
+### For solutions check out the the method in Code file with the same name as the question. (coming soon)
