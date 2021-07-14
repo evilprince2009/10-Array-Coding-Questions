@@ -1,0 +1,12 @@
+obj/
+bin/
+*.csproj
+*.sln
+*.xproj
+*.suo
+*.targets
+*.props
+*.cache
+*.dll
+*.exe
+*.pdb
