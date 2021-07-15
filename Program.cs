@@ -6,7 +6,7 @@ namespace _10_Array_Coding_Questions
     {
         static void Main()
         {
-            int[] given_array = { 1, 2, 3, 2, 4, 0};
+            int[] given_array = { 1, 2, 3, 2, 4, 0, 0, 4, 5, -1 };
 
             //int missing_num = ArrayProblemSolutions.GetMissingNumber(given_array);
             //Console.WriteLine("Missing number is {0}", missing_num);

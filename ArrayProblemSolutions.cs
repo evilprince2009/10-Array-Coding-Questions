@@ -20,16 +20,14 @@ namespace _10_Array_Coding_Questions
             List <int> numbers = new();
             int size = array.Length;
 
-            for (int i = 0; i < size; i++)
+            for(int i = 0; i < size; i++)
             {
-                int element = Math.Abs(array[i]);
-                if (array[element] >= 0)
+                for(int k = i + 1; k < size; k++)
                 {
-                    array[element] = -array[element];
-                } 
-                else
-                {
-                    numbers.Add(element);
+                    if(array[i] == array[k])
+                    {
+                        numbers.Add(array[k]);
+                    }
                 }
             }
             return numbers.ToArray();
