@@ -15,7 +15,9 @@ namespace _10_Array_Coding_Questions
             // Console.WriteLine("Duplicate numbers are" + Environment.NewLine + "{0}", string.Join(" ", duplicates));
 
             int max_num = ArrayProblemSolutions.LargestNumber(given_array);
+            int min_num = ArrayProblemSolutions.SmallestNumber(given_array);
             Console.WriteLine("Largest number is {0}", max_num);
+            Console.WriteLine("Smallest number is {0}", min_num);
         }
     }
 }

@@ -36,7 +36,8 @@ namespace _10_Array_Coding_Questions
             return numbers.ToArray();
         }
 
-        public static int LargestNumber(int[] array){
+        public static int LargestNumber(int[] array)
+        {
             int max = array[0];
             for (int i = 1; i < array.Length; i++)
             {
@@ -46,6 +47,19 @@ namespace _10_Array_Coding_Questions
                 }
             }
             return max;
+        }
+
+        public static int SmallestNumber(int[] array)
+        {
+            int min = array[0];
+            for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i] < min)
+                {
+                    min = array[i];
+                }
+            }
+            return min;
         }
     }
 }
