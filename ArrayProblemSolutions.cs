@@ -74,5 +74,26 @@ namespace _10_Array_Coding_Questions
             }
             return count;
         }
+
+        public static int[] RemoveDuplicates(int[] array)
+        {
+            List<int> unique = new();
+            for (int index = 0; index < array.Length; index++)
+            {
+                bool flag = false;
+                int counter = 0;
+                while (counter < index)
+                {
+                    if (array[index] == array[counter])
+                    flag = true;
+                    counter++;
+                }
+                if (flag == false) 
+                {
+                    unique.Add(array[index]);
+                }
+            }
+            return unique.ToArray();
+        }
     }
 }

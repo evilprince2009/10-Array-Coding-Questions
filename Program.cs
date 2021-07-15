@@ -18,8 +18,11 @@ namespace _10_Array_Coding_Questions
             // int min_num = ArrayProblemSolutions.SmallestNumber(given_array);
             //Console.WriteLine("Largest number is {0}", max_num);
             // Console.WriteLine("Smallest number is {0}", min_num);
-            int count = ArrayProblemSolutions.PairCount(given_array, 4);
-            Console.WriteLine(count);
+            // int count = ArrayProblemSolutions.PairCount(given_array, 4);
+            // Console.WriteLine(count);
+
+            int[] uniques = ArrayProblemSolutions.RemoveDuplicates(given_array);
+            Console.WriteLine("Unique numbers are" + Environment.NewLine + "{0}", string.Join(" ", uniques));
         }
     }
 }
