@@ -27,6 +27,8 @@ namespace _10_Array_Coding_Questions
             ArrayProblemSolutions.Sort(given_array);
             Console.WriteLine("Sorted array is" + Environment.NewLine + "{0}", string.Join(" ", given_array));
             Console.WriteLine(ArrayProblemSolutions.Contains(given_array, 2));
+            ArrayProblemSolutions.Reverse(given_array);
+            Console.WriteLine("Reversed array is" + Environment.NewLine + "{0}", string.Join(" ", given_array));
         }
     }
 }

@@ -123,5 +123,21 @@ namespace _10_Array_Coding_Questions
             }
             return false;
         }
+
+        public static void Reverse(int[] array)
+        {
+            int size = array.Length;
+            int[] buffer = new int[size];
+            
+            for (int index = 0; index < size; index++)
+            {
+                buffer[size - index - 1] = array[index];
+            }
+            
+            for (int i = 0; i < size; i++)
+            {
+                array[i] = buffer[i];
+            }
+        }
     }
 }

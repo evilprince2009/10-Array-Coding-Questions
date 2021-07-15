@@ -18,9 +18,11 @@ The key to solving array-based questions is having a good knowledge of array dat
 - How are duplicates removed from a given array ? (solution -> `RemoveDuplicates(given_array): int[]`)
 - How is an integer array sorted in place ? ( -> `Sort(int[] array): void`)
 - How do you test if an array contains a specific value ? (solution -> `Contains(int[] array, int value): bool`)
-- How do you reverse an array in place in ? (solution)
-- How are duplicates removed from an array without using any library ? (solution)
+- How do you reverse an array in place in ? (solution -> `Reverse(int[] array): void`)
+- How are duplicates removed from an array without using any library ? (solution -> `RemoveDuplicates(given_array): int[]`)
 
 These questions will not only help you to develop your problem-solving skills but also improve your knowledge of the array data structure.
 
-### For solutions check out the the method in Code file with the same name as the question. (All solutions coming soon)
+### For solutions check out the the method in Code file with the same name as the question.
+
+### ⚡⚡ [Ibne Nahian](https://www.facebook.com/evilprince2009) ⚡⚡
