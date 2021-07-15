@@ -95,5 +95,33 @@ namespace _10_Array_Coding_Questions
             }
             return unique.ToArray();
         }
+        
+        public static void Sort(int[] array)
+        {
+            for (int index = 0; index < array.Length; ++index)
+            {
+                int counter = index;
+                
+                while (counter > 0 && array[counter - 1] > array[counter])
+                {
+                    int buffer = array[counter];
+                    array[counter] = array[counter - 1];
+                    array[counter - 1] = buffer;
+                    counter--;
+                }
+            }
+        }
+
+        public static bool Contains(int[] array, int value)
+        {
+            foreach (int element in array)
+            {
+                if (element == value)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

@@ -16,11 +16,11 @@ The key to solving array-based questions is having a good knowledge of array dat
 - How do you find how many pairs are there in an integer array whose sum is equal to a given number? (solution -> `PairCount(int[] array, int sum): int`)
 - How do you find duplicate numbers in an array if it contains multiple duplicates? (solution -> `GetDuplicateNumbers(int[] given_array): int[]`)
 - How are duplicates removed from a given array ? (solution -> `RemoveDuplicates(given_array): int[]`)
-- How is an integer array sorted in place using the quicksort algorithm ? (solution)
-- How do you remove duplicates from an array in place ? (solution)
+- How is an integer array sorted in place ? ( -> `Sort(int[] array): void`)
+- How do you test if an array contains a specific value ? (solution -> `Contains(int[] array, int value): bool`)
 - How do you reverse an array in place in ? (solution)
 - How are duplicates removed from an array without using any library ? (solution)
 
 These questions will not only help you to develop your problem-solving skills but also improve your knowledge of the array data structure.
 
-### For solutions check out the the method in Code file with the same name as the question. (coming soon)
+### For solutions check out the the method in Code file with the same name as the question. (All solutions coming soon)
