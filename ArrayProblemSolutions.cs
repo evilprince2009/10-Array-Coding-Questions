@@ -5,7 +5,6 @@ namespace _10_Array_Coding_Questions
 {
     public class ArrayProblemSolutions
     {
-        // Finding the missing number in a given integer array
         public static int GetMissingNumber(int[] input_array)
         {
             int array_length = input_array.Length;
@@ -18,7 +17,7 @@ namespace _10_Array_Coding_Questions
         }
         public static int[] GetDuplicateNumbers(int[] array)
         {
-            List<int> numbers = new();
+            List <int> numbers = new();
             int size = array.Length;
 
             for (int i = 0; i < size; i++)
@@ -27,7 +26,7 @@ namespace _10_Array_Coding_Questions
                 if (array[element] >= 0)
                 {
                     array[element] = -array[element];
-                }
+                } 
                 else
                 {
                     numbers.Add(element);
@@ -60,6 +59,22 @@ namespace _10_Array_Coding_Questions
                 }
             }
             return min;
+        }
+
+        public static int PairCount(int[] array, int sum)
+        {
+            int count = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int k = i + 1; k < array.Length; k++)
+                {
+                    if ((array[i] + array[k]) == sum)
+                    {
+                        count++;
+                    }
+                }
+            }
+            return count;
         }
     }
 }
